@@ -1,4 +1,5 @@
 FROM python:3.11-slim
+#python 3.14 no available in github
 WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
